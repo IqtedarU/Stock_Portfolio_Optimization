@@ -38,6 +38,7 @@ def standard_deviation (weights, cov_matrix):
    return np.sqrt(variance)
 
 def expected_return(weights, log_returns):
+   #Past results don't show future returns. This is only done to move with the project, but you typically calculate expected returns for each stock to project it.
    return np.sum(log_returns.mean()*weights)*252
 
 def sharpe_ratio(weights, log_returns, cov_matrix, risk_free_rate):
