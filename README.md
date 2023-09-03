@@ -10,3 +10,4 @@ Future Ideas:
   - Graph Efficient Frontier
   - Data mine expected returns of stocks to use in the future by analyzing opinions of analysts
   - See how different factors affect portfolio(Time of year, ESG factors etc.)
+  - Data Mine Tickers with specific filters (P/E Ration, ESG Score etc)
